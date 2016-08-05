@@ -20,7 +20,9 @@
     
     self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     LoginController *loginController = [LoginController new];
-    self.window.rootViewController = loginController;
+    
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:loginController];
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     
