@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomePageController.h
 //  SingPlayer
 //
 //  Created by 石燚 on 16/8/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomePageController : UIViewController
 
 @end
-

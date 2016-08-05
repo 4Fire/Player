@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E6312F51D54DBA400DA8D4F /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6312F41D54DBA400DA8D4F /* LoginController.m */; };
+		5E6313001D54DF1300DA8D4F /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6312FF1D54DF1300DA8D4F /* HomePageController.m */; };
 		5EE1CE681D544BD500E11675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CE671D544BD500E11675 /* main.m */; };
 		5EE1CE6B1D544BD500E11675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CE6A1D544BD500E11675 /* AppDelegate.m */; };
-		5EE1CE6E1D544BD500E11675 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CE6D1D544BD500E11675 /* ViewController.m */; };
-		5EE1CE711D544BD500E11675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE1CE6F1D544BD500E11675 /* Main.storyboard */; };
-		5EE1CE741D544BD500E11675 /* SingPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CE721D544BD500E11675 /* SingPlayer.xcdatamodeld */; };
 		5EE1CE761D544BD500E11675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE1CE751D544BD500E11675 /* Assets.xcassets */; };
-		5EE1CE791D544BD500E11675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE1CE771D544BD500E11675 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E6312EF1D54DA2200DA8D4F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5E6312F31D54DBA400DA8D4F /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		5E6312F41D54DBA400DA8D4F /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		5E6312FE1D54DF1300DA8D4F /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
+		5E6312FF1D54DF1300DA8D4F /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
 		5EE1CE631D544BD500E11675 /* SingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE1CE671D544BD500E11675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5EE1CE691D544BD500E11675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5EE1CE6A1D544BD500E11675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EE1CE6C1D544BD500E11675 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EE1CE6D1D544BD500E11675 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5EE1CE701D544BD500E11675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5EE1CE731D544BD500E11675 /* SingPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SingPlayer.xcdatamodel; sourceTree = "<group>"; };
+		5EE1CE691D544BD500E11675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		5EE1CE6A1D544BD500E11675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		5EE1CE751D544BD500E11675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5EE1CE781D544BD500E11675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EE1CE7A1D544BD500E11675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +39,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E6312E41D54D92D00DA8D4F /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				5EE1CE691D544BD500E11675 /* AppDelegate.h */,
+				5EE1CE6A1D544BD500E11675 /* AppDelegate.m */,
+				5E6312E61D54D92D00DA8D4F /* ViewController */,
+				5E6312E51D54D92D00DA8D4F /* View */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		5E6312E51D54D92D00DA8D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E6312E61D54D92D00DA8D4F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5E6312E71D54D92D00DA8D4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E6312E81D54D96C00DA8D4F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5E6312EF1D54DA2200DA8D4F /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5E6312E91D54D98900DA8D4F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5E6312EA1D54DA0300DA8D4F /* ChildClass */ = {
+			isa = PBXGroup;
+			children = (
+				5E6312EB1D54DA0300DA8D4F /* LoginClass */,
+				5E6312FA1D54DF0400DA8D4F /* HomePage */,
+			);
+			path = ChildClass;
+			sourceTree = "<group>";
+		};
+		5E6312EB1D54DA0300DA8D4F /* LoginClass */ = {
+			isa = PBXGroup;
+			children = (
+				5E6312EC1D54DA0300DA8D4F /* Controller */,
+				5E6312ED1D54DA0300DA8D4F /* Model */,
+				5E6312EE1D54DA0300DA8D4F /* View */,
+			);
+			path = LoginClass;
+			sourceTree = "<group>";
+		};
+		5E6312EC1D54DA0300DA8D4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E6312F31D54DBA400DA8D4F /* LoginController.h */,
+				5E6312F41D54DBA400DA8D4F /* LoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E6312ED1D54DA0300DA8D4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E6312EE1D54DA0300DA8D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E6312FA1D54DF0400DA8D4F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				5E6312FB1D54DF0400DA8D4F /* Controller */,
+				5E6312FC1D54DF0400DA8D4F /* Model */,
+				5E6312FD1D54DF0400DA8D4F /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		5E6312FB1D54DF0400DA8D4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E6312FE1D54DF1300DA8D4F /* HomePageController.h */,
+				5E6312FF1D54DF1300DA8D4F /* HomePageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E6312FC1D54DF0400DA8D4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E6312FD1D54DF0400DA8D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5EE1CE5A1D544BD500E11675 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +180,11 @@
 		5EE1CE651D544BD500E11675 /* SingPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				5EE1CE691D544BD500E11675 /* AppDelegate.h */,
-				5EE1CE6A1D544BD500E11675 /* AppDelegate.m */,
-				5EE1CE6C1D544BD500E11675 /* ViewController.h */,
-				5EE1CE6D1D544BD500E11675 /* ViewController.m */,
-				5EE1CE6F1D544BD500E11675 /* Main.storyboard */,
-				5EE1CE751D544BD500E11675 /* Assets.xcassets */,
-				5EE1CE771D544BD500E11675 /* LaunchScreen.storyboard */,
-				5EE1CE7A1D544BD500E11675 /* Info.plist */,
-				5EE1CE721D544BD500E11675 /* SingPlayer.xcdatamodeld */,
+				5E6312E71D54D92D00DA8D4F /* Model */,
+				5E6312E41D54D92D00DA8D4F /* MainClass */,
+				5E6312EA1D54DA0300DA8D4F /* ChildClass */,
+				5E6312E81D54D96C00DA8D4F /* Other */,
+				5E6312E91D54D98900DA8D4F /* Resource */,
 				5EE1CE661D544BD500E11675 /* Supporting Files */,
 			);
 			path = SingPlayer;
@@ -77,6 +193,8 @@
 		5EE1CE661D544BD500E11675 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EE1CE751D544BD500E11675 /* Assets.xcassets */,
+				5EE1CE7A1D544BD500E11675 /* Info.plist */,
 				5EE1CE671D544BD500E11675 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,9 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE1CE791D544BD500E11675 /* LaunchScreen.storyboard in Resources */,
 				5EE1CE761D544BD500E11675 /* Assets.xcassets in Resources */,
-				5EE1CE711D544BD500E11675 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,33 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE1CE6E1D544BD500E11675 /* ViewController.m in Sources */,
-				5EE1CE741D544BD500E11675 /* SingPlayer.xcdatamodeld in Sources */,
 				5EE1CE6B1D544BD500E11675 /* AppDelegate.m in Sources */,
+				5E6313001D54DF1300DA8D4F /* HomePageController.m in Sources */,
 				5EE1CE681D544BD500E11675 /* main.m in Sources */,
+				5E6312F51D54DBA400DA8D4F /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5EE1CE6F1D544BD500E11675 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EE1CE701D544BD500E11675 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5EE1CE771D544BD500E11675 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EE1CE781D544BD500E11675 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5EE1CE7B1D544BD500E11675 /* Debug */ = {
@@ -208,6 +305,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SingPlayer/Other/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -251,6 +349,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SingPlayer/Other/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -273,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sy.SingPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -284,6 +384,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sy.SingPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -306,21 +407,9 @@
 				5EE1CE7F1D544BD500E11675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5EE1CE721D544BD500E11675 /* SingPlayer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5EE1CE731D544BD500E11675 /* SingPlayer.xcdatamodel */,
-			);
-			currentVersion = 5EE1CE731D544BD500E11675 /* SingPlayer.xcdatamodel */;
-			path = SingPlayer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5EE1CE5B1D544BD500E11675 /* Project object */;
 }
