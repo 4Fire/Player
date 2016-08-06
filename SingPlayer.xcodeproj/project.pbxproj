@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		5E6312F51D54DBA400DA8D4F /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6312F41D54DBA400DA8D4F /* LoginController.m */; };
 		5E6313001D54DF1300DA8D4F /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6312FF1D54DF1300DA8D4F /* HomePageController.m */; };
+		5EC07F011D55B84F000309B6 /* Pods-SingPlayer.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7A7A31B5B0335739AC8FBA8B /* Pods-SingPlayer.debug.xcconfig */; };
+		5EC07F021D55B852000309B6 /* Pods-SingPlayer.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FE293C11095AA0987487E0C /* Pods-SingPlayer.release.xcconfig */; };
 		5EE1CE681D544BD500E11675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CE671D544BD500E11675 /* main.m */; };
 		5EE1CE6B1D544BD500E11675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CE6A1D544BD500E11675 /* AppDelegate.m */; };
 		5EE1CE761D544BD500E11675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE1CE751D544BD500E11675 /* Assets.xcassets */; };
+		E7BCC30DE8CC13C629CA2BF9 /* libPods-SingPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 681B5C78A8C5BEADC9F10CD9 /* libPods-SingPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FE293C11095AA0987487E0C /* Pods-SingPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		5E6312EF1D54DA2200DA8D4F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5E6312F31D54DBA400DA8D4F /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		5E6312F41D54DBA400DA8D4F /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		5EE1CE6A1D544BD500E11675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		5EE1CE751D544BD500E11675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EE1CE7A1D544BD500E11675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681B5C78A8C5BEADC9F10CD9 /* libPods-SingPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7A31B5B0335739AC8FBA8B /* Pods-SingPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BCC30DE8CC13C629CA2BF9 /* libPods-SingPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +173,8 @@
 			children = (
 				5EE1CE651D544BD500E11675 /* SingPlayer */,
 				5EE1CE641D544BD500E11675 /* Products */,
+				EF4F6452FBDCF2112E6BD081 /* Pods */,
+				EC9C3146D4AB3C49B833F572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +209,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EC9C3146D4AB3C49B833F572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681B5C78A8C5BEADC9F10CD9 /* libPods-SingPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4F6452FBDCF2112E6BD081 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A31B5B0335739AC8FBA8B /* Pods-SingPlayer.debug.xcconfig */,
+				2FE293C11095AA0987487E0C /* Pods-SingPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EE1CE7D1D544BD500E11675 /* Build configuration list for PBXNativeTarget "SingPlayer" */;
 			buildPhases = (
+				76839D9270C8B5420F57F85E /* [CP] Check Pods Manifest.lock */,
 				5EE1CE5F1D544BD500E11675 /* Sources */,
 				5EE1CE601D544BD500E11675 /* Frameworks */,
 				5EE1CE611D544BD500E11675 /* Resources */,
+				455CDB5469F9364095CCB564 /* [CP] Embed Pods Frameworks */,
+				99FEA06E4B17F7E6F97CA392 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,10 +287,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EE1CE761D544BD500E11675 /* Assets.xcassets in Resources */,
+				5EC07F021D55B852000309B6 /* Pods-SingPlayer.release.xcconfig in Resources */,
+				5EC07F011D55B84F000309B6 /* Pods-SingPlayer.debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		455CDB5469F9364095CCB564 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76839D9270C8B5420F57F85E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99FEA06E4B17F7E6F97CA392 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EE1CE5F1D544BD500E11675 /* Sources */ = {
@@ -366,6 +445,7 @@
 		};
 		5EE1CE7E1D544BD500E11675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7A31B5B0335739AC8FBA8B /* Pods-SingPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SingPlayer/Info.plist;
@@ -378,6 +458,7 @@
 		};
 		5EE1CE7F1D544BD500E11675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE293C11095AA0987487E0C /* Pods-SingPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SingPlayer/Info.plist;
